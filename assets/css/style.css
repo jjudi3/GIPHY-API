@@ -1,8 +1,7 @@
 body{
-	background: url("BKGRd.jpg");
 	background-size: 100%;
-    background-repeat: no-repeat;
-    color: black;
+	/*background: black url('assets/spiral.jpg') no-repeat;*/
+	color: black;
 }
 * {
 	box-sizing: border-box;
@@ -28,10 +27,11 @@ img {
 	padding: 20px;
 }
 .jumbotron {
-    background-color: inherit;
+    background-color: #BBECD8;
+	background-image: url("BKGRd.jpg");
 }
 .jumbotron .h1, .jumbotron h1 {
-    text-align: center;
+	text-align: center;
 }
 #copyright{
 	font-size: 14px;
